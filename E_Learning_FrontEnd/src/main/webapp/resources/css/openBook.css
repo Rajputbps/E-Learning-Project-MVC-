@@ -1,0 +1,14 @@
+.clable{
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+}
+.courceDetailcol{
+	border-style: double;
+	border-color: blue;
+	border-width: 2px;
+}
+.menu-list a:hover {
+    background-color: #005bff;
+    color: #363636;
+}

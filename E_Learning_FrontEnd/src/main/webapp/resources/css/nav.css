@@ -1,0 +1,69 @@
+
+body{
+	background-image: linear-gradient(to bottom right,#64b5f6,#90caf9,#2979ff);
+}
+
+.navBarStyle{
+	background-image: linear-gradient(to bottom right,#2979ff,#90caf9,#64b5f6);
+} 
+
+.searchBox{
+	height: 90px; 
+}
+ 
+.navbar-item, .navbar-link {
+    color: #ffffff;
+}
+.notePad{ 
+	height: 500px;
+	background-image: linear-gradient(to bottom right,#90caf9,#2979ff,#64b5f6);
+}
+.message:not(:last-child){
+	margin-bottom: 0px;
+}
+.navbar-dropdown {
+    background-color:  #64b5f6;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: 2px solid #dbdbdb;
+    box-shadow: 0 8px 8px rgba(10,10,10,.1);
+    display: none;
+    font-size: .875rem;
+    left: 0;
+    min-width: 100%;
+    position: absolute;
+    top: 100%;
+    z-index: 20;
+}
+
+.errorMessage{
+	color: #de2f2f;
+	font-weight: bold;
+}
+ 
+.error.ng-invalid.ng-dirty {
+  background-color: #de2f2f;
+}
+.error.ng-valid {
+  background-color: lightgreen;
+}
+.noteListBody{
+	margin-top: 7.5%; 
+	height:500px;
+	width:350px;
+	display: none;
+	position:inherit;
+	
+}
+.noteHeader{
+	height: 100%;
+	width:100%;
+	background-color: #fff;
+	position: relative;
+}
+.noteText::placeholder{ 
+	text-align: center; 
+	padding-top: 13%;
+}
+
+ 
